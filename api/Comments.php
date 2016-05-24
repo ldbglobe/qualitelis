@@ -2,10 +2,11 @@
 namespace ldbglobe\qualitelis\api;
 
 class Comments {
-	var $settings = (object)array();
+	var $settings;
 
 	function __construct($default_settings)
 	{
+		$this->settings = (object)array();
 		$this->_default_settings($default_settings);
 	}
 

@@ -26,7 +26,7 @@ class Comments {
 			$this->settings->VisitorLanguage = $settings->VisitorLanguage;
 	}
 
-	private function _setting($k,$settings,$default)
+	private function _setting($k,$settings,$default=NULL)
 	{
 		// extract settings from arguments or fallback to internal default settings
 		$settings = (object)$settings;

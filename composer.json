@@ -1,0 +1,25 @@
+{
+    "name": "ldbglobe/qualitelis",
+    "type": "library",
+    "description": "Qualitelis API interface",
+    "keywords": [],
+    "homepage": "https://github.com/ldbglobe/qualitelis",
+    "support": {
+        "issues": "https://github.com/ldbglobe/qualitelis/issues",
+        "source": "https://github.com/ldbglobe/qualitelis"
+    },
+    "authors": [
+        {
+            "name": "Mathieu Delestre",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+    },
+    "autoload": {
+        "classmap": [
+        	"api/Comments.php"
+        ]
+    }
+}

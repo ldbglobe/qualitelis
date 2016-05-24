@@ -34,7 +34,7 @@ class Comments {
 		if(isset($settings->{$k}))
 			return $settings->{$k};
 		else if(isset($this->settings->{$k}))
-			return $this->settings->{$k}
+			return $this->settings->{$k};
 		return null;
 	}
 
